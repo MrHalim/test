@@ -37,6 +37,6 @@ while(1):
  	else:
   		cv2.imwrite(chr(k)+".jpg",img2)
 	else:
-    	break
+    		break
 cv2.destroyAllWindows()
 cap.release()
